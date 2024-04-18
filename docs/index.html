@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>凤凰文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'FH-API',
+      repo: '',
+      // search: 'auto', // 默认值
+
+      // 直接渲染其他域名的文档
+      // basePath: 'https://docsify.js.org/',
+      // basePath: '/fh-api/',
+
+      nameLink: '/',
+      alias: {
+        '/': '/',
+        '/zh-cn/': '/zh-cn/',
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+
+      // 完整配置参数
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: [], // or 'auto'
+        // placeholder: 'Type to search',
+
+        // 支持本地化
+        placeholder: {
+          '/fh-api/': '搜索',
+          '/': 'Type to search'
+        },
+
+        // noData: 'No Results!',
+
+        // 支持本地化
+        noData: {
+          '/fh-api/': '找不到结果',
+          '/': 'No Results'
+        },
+
+        // 搜索标题的最大程级, 1 - 6
+        depth: 2
+      },
+
+      // 侧边栏中出现的网站图标
+      // logo: '/_media/icon.svg',
+      // 入口文件改为 /home.md
+      // homepage: 'home.md',
+
+      // 加载导航
+      loadNavbar: true,
+      // 加载 _sidebar.md
+      loadSidebar: true,
+      // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题
+      autoHeader: true,
+
+      // 封面自定义文件名
+      // coverpage: '_coverpage.md',
+      // coverpage: true,
+      // mutiple covers
+      // coverpage: {
+      //   '/': '_coverpage.md',
+      //   '/zh-cn/': '_coverpage.md'
+      // },
+
+      maxLevel: 3,
+      subMaxLevel: 2,
+      auto2top: true,
+      mergeNavbar: true,      // 小屏设备下合并导航栏到侧边栏。
+      // routerMode: 'history',
+      ext: '.md',
+      notFoundPage: true,
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/vue"></script>
+<!--  <script src="//unpkg.com/docsify"></script>-->
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-php.js"></script>
+</body>
+</html>
