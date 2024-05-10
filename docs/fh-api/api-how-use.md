@@ -2,19 +2,19 @@
 
 ## 相关信息
 
-- APP接口项目：测试服务器目前部署在 `test10` 上、
-- 接口负责人：`@jax、@ug_benjamin、@ugmichael`
+- APP接口项目：测试服务器目前部署在 `t002` 上、
+
 - 接口业务分层：
     1. @ug_benjamin：主要负责：个人中心、登录、注册、投注、 等相关接口
     2. @ugmichael：主要负责：首页、购彩大厅、玩法详情、真人游戏、等相关接口
 
 ```
-* 接口地址：http://test10.6yc.com/wjapp/api.php
+* 接口地址：https://gsyahcot002uqmhd.aaasfjyt.com/wjapp/api.php
     * 临时请求路径方式：?c=user&a=login，区别于传统路径：/user/login 
     * 注意：所有请求路径不要写死，方便后期转换
-* 后台地址：http://admintest10.6yc.com
+* 后台地址：http://gsyahcot0022auqmhd.aaasfjyt.com
     * 管理员1：usr: admin, pwd: aa123456, code: 147258
-* 前台地址：http://test10.6yc.com
+* 前台地址：https://gsyahcot002uqmhd.aaasfjyt.com/
 ```
 
 ## 接口文档
