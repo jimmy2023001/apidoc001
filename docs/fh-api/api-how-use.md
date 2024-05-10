@@ -4,10 +4,6 @@
 
 - APP接口项目：测试服务器目前部署在 `t002` 上、
 
-- 接口业务分层：
-    1. @ug_benjamin：主要负责：个人中心、登录、注册、投注、 等相关接口
-    2. @ugmichael：主要负责：首页、购彩大厅、玩法详情、真人游戏、等相关接口
-
 ```
 * 接口地址：https://gsyahcot002uqmhd.aaasfjyt.com/wjapp/api.php
     * 临时请求路径方式：?c=user&a=login，区别于传统路径：/user/login 
